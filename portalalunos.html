@@ -6,11 +6,10 @@
     <title>Document</title>
     <style>
         body{
-        margin: 0px;
-        display: flex;
-        flex-direction: column;
-        background-color: rgb(255, 255, 255);
-         
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
         }
         .trcs{
             display: flex;
@@ -18,14 +17,15 @@
             align-items: center;
             background-color: lightskyblue;
             color: black;
-            width: 100%;
-            font-size: 10px;
+            width: 98,2%;
+            padding: 10px;
         }
         .ft-on{
             height: 120px;
             width: 120px;
             border-radius: 100px;
             padding-left: 10px;
+           
         }
         
         
@@ -37,11 +37,12 @@
 
         } 
         .navitem{
-            padding: 2px;
-            border: 2px solid black;
-            border-top-left-radius: 5px; 
-            border-top-right-radius: 5px; 
-            cursor: pointer;
+          padding: 5px 10px;
+          border: 2px solid black;
+         border-radius: 8px;
+         cursor: pointer;
+         background-color: white;
+        
         }
 
         
@@ -50,45 +51,52 @@
         }
         .boa{
            display: flex;
-            flex-direction: row;
+           justify-content: center;
+           flex-direction: row;
            
+          
         }
 
         .nda{
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            background-color: gray;
-            color:white;
-            font-size: 50px;
+            padding: 2px;
+            border: 2px solid black;
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
             cursor: pointer;
-            padding-left: 90px;  
+            font-size: 50px;
            
         }
         .locs{
-            display: flex;
+            padding: 2px;
+            border: 2px solid black;
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            cursor: pointer;
+            font-size: 50px;
+            
+
             
         }
         .lui{
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            background-color: gray;
-            color:white;
-            font-size: 50px;
-            cursor: pointer;
-            padding-left: 90px;  
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+         
+
         }
+       
+
+        
 
     </style>
 </head>
 <body>
    <div class="trcs">
-    <img src="logo-oficial-sanico.jpg" alt="porrinha" class="ft-on">
+    <img src="sanco.jpg" alt="lis" class="ft-on">
     <h1>PORTAL DOS ALUNOS</h1>
-    
+       <input placeholder="Pesquisar..." class="nus">
     <div>
-        <input>
+      
     </div>
     <div class="navbar">
         <h2 class="navitem">Home</h1>
@@ -98,16 +106,16 @@
     </div>
     </div>
    <div class=boa> 
-        <h2 class="nda">Calendário/</h1>
-        <h2 class="nda">Notas/</h1>
+        <h2 class="nda">Calendário</h1>
+        <h2 class="nda">Notas</h1>
         <h2 class="nda">Desempenho</h1>
         
    
     </div>
-         <div class="lui">
+        <div class="lui">
         <h2 class="locs">Faltas</h1>
         <h2 class="locs">AT Avaliativa</h1>
-        <h2 class="locs">AT Extra Curricular</h1>
+        <h2 class="locs">AT Curricular</h1>
     </div>
 </body>
 </html>
